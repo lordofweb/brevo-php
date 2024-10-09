@@ -38,10 +38,14 @@ namespace Brevo\Client;
  * @link     https://github.com/swagger-api/swagger-codegen
  */
 
-$GLOBALS['version'] = '2.0.0';
 
 class Configuration
 {
+    /**
+     * Version of the package
+     */
+    const VERSION = '2.0.0';
+
     private static $defaultConfiguration;
 
     /**
@@ -120,7 +124,7 @@ class Configuration
     public function __construct()
     {
         $this->tempFolderPath = sys_get_temp_dir();
-        $this->userAgent = 'brevo_clientAPI/v' . $GLOBALS['version'] . '/php'; 
+        $this->userAgent = 'brevo_clientAPI/v' . self::VERSION . '/php';
     }
 
     /**
