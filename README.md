@@ -14,7 +14,7 @@ For more information, please visit [https://account.brevo.com/support](https://a
 
 ## Requirements
 
-PHP 5.6 and later
+PHP 7.2.5 and later
 
 ## Installation & Usage
 ### Composer
